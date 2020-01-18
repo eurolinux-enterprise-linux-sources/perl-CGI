@@ -1,7 +1,7 @@
 Name:           perl-CGI
 Summary:        Handle Common Gateway Interface requests and responses
 Version:        3.63
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        (GPL+ or Artistic) and Artistic 2.0
 Group:          Development/Libraries
 Source0:        http://search.cpan.org/CPAN/authors/id/M/MA/MARKSTOS/CGI.pm-%{version}.tar.gz
@@ -75,6 +75,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.63-4
+- Mass rebuild 2013-12-27
+
 * Mon Jun 24 2013 Jitka Plesnikova <jplesnik@redhat.com> - 3.63-3
 - Specify all dependencies
 - Update License - CGI.pm is distributed under GPL and Artistic 2.0
